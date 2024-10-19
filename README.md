@@ -1,6 +1,7 @@
 # Pong
 
 O modelpong.pth deve ser colocado no mesmo diretório que o bot.py
+
 O bot de pong é dividido em três partes que são ativadas em diferentes situação, uma é usada quando a bola está indo para longe do paddle, nesse caso ele só se posiciona entre a bola que está se afastando dele e o centro, quando a bola está indo em direção ao paddle ele usa as observações para calcular a posição em y que a bola estará quando chegar nele, se ele estiver longe ele vai se mover na direção dela, quando ele estiver perto o suficiente passará para a terceira ia que foi criada usando uma estrutura de
 PPO(Proximal policy optimization)
 
